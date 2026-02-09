@@ -1,3 +1,50 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL: "https://AiLeil.github.io/"
+languageCode: "en"  # 网站默认语言改为英文
+title: "AiLeil"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+params:
+  math: true
+  defaultTheme: auto
+  ShowReadingTime: true
+  
+  # 首页简介 (英文，展示你的学术背景)
+  profileMode:
+    enabled: true
+    title: "AiLeil"
+    subtitle: "24, still a student"
+    bio: "UWaterloo BMath -> UniMelb MIT"
+    buttons:
+      - name: Projects
+        url: "/projects/"
+      - name: Essays
+        url: "/essays/"
+      - name: GitHub
+        url: "https://github.com/AiLeil"
+
+  # 社交链接 (可选，之后可以加)
+  socialIcons:
+    - name: github
+      url: "https://github.com/AiLeil"
+    - name: email
+      url: "zlh4sg@gmail.com"
+
+# 菜单栏设置
+menu:
+  main:
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 10
+    - identifier: essays
+      name: Essays (CN)  # 中英文对照，或者只写 Essays
+      url: /essays/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
