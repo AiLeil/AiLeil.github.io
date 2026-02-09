@@ -2,6 +2,7 @@
 date = '2026-02-09T18:50:00+08:00'
 draft = false
 title = '决策论与贝叶斯推断：以狼人杀为例'
+math = true
 +++
 
 近期在自学 Berkeley 的 CS189（[课程主页](https://people.eecs.berkeley.edu/~jrs/189/)）时，接触到了决策论（Decision Theory）与贝叶斯推断的相关内容。这些概念与桌面游戏“狼人杀”在逻辑结构上存在高度相似性，因此尝试用该游戏作为一个非形式化的例子进行整理。
