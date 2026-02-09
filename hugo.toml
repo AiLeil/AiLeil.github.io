@@ -41,9 +41,9 @@ ShowReadingTime = true
 [menu]
 
   [[menu.main]]
-  identifier = "projects"
-  name = "Projects"
-  url = "/projects/"
+  identifier = "notes"
+  name = "Notes(CN)"
+  url = "/notes/"
   weight = 10
 
   [[menu.main]]
