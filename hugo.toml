@@ -19,8 +19,8 @@ ShowReadingTime = true
   bio = "UWaterloo BMath -> UniMelb MIT"
 
     [[params.profileMode.buttons]]
-    name = "Projects"
-    url = "/projects/"
+    name = "Notes (CN)"
+    url = "/notes/"
 
     [[params.profileMode.buttons]]
     name = "Essays (CN)"
