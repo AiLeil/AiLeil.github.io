@@ -23,7 +23,7 @@ ShowReadingTime = true
     url = "/projects/"
 
     [[params.profileMode.buttons]]
-    name = "Essays"
+    name = "Essays (CN)"
     url = "/essays/"
 
     [[params.profileMode.buttons]]
