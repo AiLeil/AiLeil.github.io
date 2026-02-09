@@ -38,6 +38,10 @@ ShowReadingTime = true
   name = "email"
   url = "zlh4sg@gmail.com"
 
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/linghan-z-b13637197"
+
 [menu]
 
   [[menu.main]]
