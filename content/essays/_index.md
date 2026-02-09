@@ -1,5 +1,5 @@
 ---
 title: "Essays"
 description: "Personal Writings"
-summary: "Short essays, notes, and personal writings."
+hidemeta: true  # 列表页通常不需要显示作者/时间
 ---
