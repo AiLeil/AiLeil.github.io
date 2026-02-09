@@ -1,50 +1,59 @@
-baseURL: "https://AiLeil.github.io/"
-languageCode: "en"  # 网站默认语言改为英文
-title: "AiLeil"
-theme: "PaperMod"
+baseURL = "https://AiLeil.github.io/"
+languageCode = "en"
+title = "AiLeil"
+theme = "PaperMod"
 
-enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
 
-params:
-  math: true
-  defaultTheme: auto
-  ShowReadingTime: true
-  
-  # 首页简介 (英文，展示你的学术背景)
-  profileMode:
-    enabled: true
-    title: "AiLeil"
-    subtitle: "24, still a student"
-    bio: "UWaterloo BMath -> UniMelb MIT"
-    buttons:
-      - name: Projects
-        url: "/projects/"
-      - name: Essays
-        url: "/essays/"
-      - name: GitHub
-        url: "https://github.com/AiLeil"
+[params]
+math = true
+defaultTheme = "auto"
+ShowReadingTime = true
 
-  # 社交链接 (可选，之后可以加)
-  socialIcons:
-    - name: github
-      url: "https://github.com/AiLeil"
-    - name: email
-      url: "zlh4sg@gmail.com"
+  [params.profileMode]
+  enabled = true
+  title = "AiLeil"
+  subtitle = "24, still a student"
+  bio = "UWaterloo BMath -> UniMelb MIT"
 
-# 菜单栏设置
-menu:
-  main:
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 10
-    - identifier: essays
-      name: Essays (CN)  # 中英文对照，或者只写 Essays
-      url: /essays/
-      weight: 20
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 30
+    [[params.profileMode.buttons]]
+    name = "Projects"
+    url = "/projects/"
+
+    [[params.profileMode.buttons]]
+    name = "Essays"
+    url = "/essays/"
+
+    [[params.profileMode.buttons]]
+    name = "GitHub"
+    url = "https://github.com/AiLeil"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/AiLeil"
+
+  [[params.socialIcons]]
+  name = "email"
+  url = "zlh4sg@gmail.com"
+
+[menu]
+
+  [[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 10
+
+  [[menu.main]]
+  identifier = "essays"
+  name = "Essays (CN)"
+  url = "/essays/"
+  weight = 20
+
+  [[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 30
